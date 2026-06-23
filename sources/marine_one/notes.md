@@ -1,0 +1,46 @@
+# Marine One Notes
+
+- Active public site used for probing: `https://www.yachtbrokerage.eu`
+- Marine One branding is visible on that public site, which positions it as Marine One Yacht Brokerage.
+- Public probe targets use the homepage and `/boats-for-sale`.
+- This replaces the earlier failed domain guess `https://www.marineone.com.hr`.
+- Field probe result: `candidate_accessible_fields_visible`
+- The listing page exposed public detail URLs through raw structured data, allowing a small safe sample of 3 detail pages.
+- On sampled detail pages, raw HTML exposed title, asking-price, currency, builder/brand, model, year, length/LOA-like, stable detail URL, image-presence, and structured-data signals.
+- Tiny parser prototype result remains: `parser_prototype_partial`
+- Fields extracted reliably in the tiny parser sample:
+- raw title
+- raw price text
+- currency hint
+- builder hint
+- model hint
+- year hint
+- LOA hint
+- image presence
+- structured-data presence
+- stable listing URL
+- Fields still weak or missing in the tiny parser sample:
+- listing-specific location is not yet reliable across the tiny parser flow
+- engine hint is not yet reliable across the tiny parser flow
+- Hardening pass result:
+- location and engine were re-checked against raw HTML, meta-style text, visible page text near labels, and structured-data-style extraction paths
+- the 3 sampled detail pages still did not make engine extraction trustworthy
+- rendered-text comparison result:
+- Astrea 42 exposed the listing-level phrase `docked in Croatia` when the full response body and rendered browser text were checked
+- this should be documented as `requires_rendered_text_for_location` research evidence, not as production parsing approval
+- the general `/boats-for-sale` page mentioned Croatia in marketing copy, but did not expose a listing-level docked/moored/lying phrase
+- Astrea 42 rendered/raw evidence:
+- page URL: `https://www.yachtbrokerage.eu/marine-one-brokerage/fountaine-pajot-astrea-42/code-(1051)/2025`
+- full-response raw HTTP contained `croatia`: `true`
+- full-response raw HTTP contained `docked`: `true`
+- rendered text contained `croatia`: `true`
+- rendered text contained `docked`: `true`
+- rendered phrase found: `docked in croatia`
+- parser caveat: the current tiny parser still uses a smaller fetch cap than the debug probe, so this evidence does not yet upgrade the parser classification by itself
+- Known parser risks:
+- the parser leans on template-dependent text and structured-data-like signals from a Wix site
+- location evidence can appear deeper in the full response than the current tiny parser fetch cap reaches
+- engine data is still weak in the tested public sample
+- Adapter-candidate decision:
+- yes, this source is still a good early adapter candidate for YPI later
+- the classification should remain cautious until location and engine are more reliable without broadening scope

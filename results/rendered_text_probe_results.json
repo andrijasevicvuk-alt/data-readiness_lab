@@ -1,0 +1,32 @@
+[
+  {
+    "source_name": "Marine One",
+    "page_url": "https://www.yachtbrokerage.eu/marine-one-brokerage/fountaine-pajot-astrea-42/code-(1051)/2025",
+    "raw_http_contains_croatia": true,
+    "rendered_text_contains_croatia": true,
+    "raw_http_contains_docked": true,
+    "rendered_text_contains_docked": true,
+    "rendered_text_location_phrase_found": "docked in croatia",
+    "rendered_text_probe_notes": "Raw HTTP and rendered text both exposed the listing-level phrase 'docked in Croatia'. Treat this as research evidence only and mark the source as requires_rendered_text_for_location until parser logic is intentionally updated."
+  },
+  {
+    "source_name": "Marine One",
+    "page_url": "https://www.yachtbrokerage.eu/boats-for-sale",
+    "raw_http_contains_croatia": true,
+    "rendered_text_contains_croatia": true,
+    "raw_http_contains_docked": false,
+    "rendered_text_contains_docked": false,
+    "rendered_text_location_phrase_found": null,
+    "rendered_text_probe_notes": "Croatia appeared in general market copy on the public listing page, but no listing-level docked/moored/lying phrase was confirmed."
+  },
+  {
+    "source_name": "Croatian Yachting",
+    "page_url": "https://www.croatia-yachting.hr/en/yachts-for-sale/used-boats",
+    "raw_http_contains_croatia": true,
+    "rendered_text_contains_croatia": true,
+    "raw_http_contains_docked": false,
+    "rendered_text_contains_docked": false,
+    "rendered_text_location_phrase_found": null,
+    "rendered_text_probe_notes": "The public used-boats page returned 200 and mentioned Croatia, but no listing-level location phrase such as 'docked in Croatia' was confirmed from the single rendered-text check."
+  }
+]

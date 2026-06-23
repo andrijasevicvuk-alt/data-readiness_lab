@@ -1,0 +1,27 @@
+# TheYachtMarket Notes
+
+- Public domain assumption for Wave 1 probing: `https://www.theyachtmarket.com/en`
+- Included a Croatia-specific sale page when available.
+- Field probing remains tiny and only follows one public detail page if raw links are clear.
+- Latest discovery result: `candidate_detail_discovery_success`
+- Homepage, `/boats-for-sale/`, and the Croatia sale page returned `200`.
+- The bounded detail-discovery pass tested 5 candidate links and confirmed 3 probable public detail pages from raw homepage links.
+- Confirmed probable detail URLs had stable `/id.../` patterns and exposed listing-like title, price-like text, year-like text, and boat/model-like signals.
+- The Croatia category page itself still mostly exposed brand/category navigation rather than unique listing links.
+- Tiny parser prototype result: `parser_prototype_success`
+- The 3 confirmed public detail pages parsed successfully for core marketplace fields:
+- title
+- price text
+- currency
+- builder/model
+- year
+- location
+- LOA
+- engine on the tested sample
+- fuel on the tested sample
+- boat-type hint
+- image presence
+- Fields still weak or missing:
+- broker/seller name was not clearly visible as a trustworthy public field in the tiny sample
+- structured-data markers were not needed for the successful sample and were not a strong dependency
+- Recommendation: this source is ready for later adapter-candidate work and looks like the strongest current broader marketplace backbone candidate for YPI MVP testing.

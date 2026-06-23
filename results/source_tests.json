@@ -1,0 +1,934 @@
+[
+  {
+    "source_id": "band_of_boats",
+    "source_name": "Band of Boats",
+    "base_url": "https://www.bandofboats.com/en",
+    "target_confidence": "official_public_url",
+    "target_source_note": "Using the public Band of Boats English-language sale pages.",
+    "classification": "blocked_403_do_not_bypass",
+    "robots_txt_url": "https://www.bandofboats.com/robots.txt",
+    "robots_txt_status_code": 403,
+    "robots_txt_accessible": false,
+    "robots_allows_probe_targets": null,
+    "sitemap_xml_url": "https://www.bandofboats.com/sitemap.xml",
+    "sitemap_xml_status_code": 403,
+    "sitemap_xml_accessible": false,
+    "field_probe_attempted": false,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": false,
+    "field_probe_notes": [],
+    "field_probe_page_results": [],
+    "detail_discovery_attempted": false,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.bandofboats.com/en/",
+        "status_code": 403,
+        "outcome": "blocked_403_do_not_bypass",
+        "reason": "source returned HTTP 403"
+      }
+    ],
+    "notes": [
+      "Wave 1 source probe uses public sale pages only.",
+      "Received HTTP 403 on a probed page. Per project rules, probing should stop here."
+    ]
+  },
+  {
+    "source_id": "boat24",
+    "source_name": "Boat24",
+    "base_url": "https://www.boat24.com",
+    "target_confidence": "official_public_url",
+    "target_source_note": "Using Boat24's public main domain for a minimal access check.",
+    "classification": "blocked_403_do_not_bypass",
+    "robots_txt_url": "https://www.boat24.com/robots.txt",
+    "robots_txt_status_code": 200,
+    "robots_txt_accessible": true,
+    "robots_allows_probe_targets": true,
+    "sitemap_xml_url": "https://www.boat24.com/sitemap.xml",
+    "sitemap_xml_status_code": 403,
+    "sitemap_xml_accessible": false,
+    "field_probe_attempted": false,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": false,
+    "field_probe_notes": [],
+    "field_probe_page_results": [],
+    "detail_discovery_attempted": false,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.boat24.com/",
+        "status_code": 403,
+        "outcome": "blocked_403_do_not_bypass",
+        "reason": "source returned HTTP 403"
+      }
+    ],
+    "notes": [
+      "Probe only a few obvious public listing/discovery pages.",
+      "Received HTTP 403 on a probed page. Per project rules, probing should stop here."
+    ]
+  },
+  {
+    "source_id": "boat24_archives",
+    "source_name": "Boat24 Archives",
+    "base_url": "https://www.boat24.com",
+    "target_confidence": "guessed_url",
+    "target_source_note": "Archive-style paths are heuristic guesses on the public Boat24 domain.",
+    "classification": "blocked_403_do_not_bypass",
+    "robots_txt_url": "https://www.boat24.com/robots.txt",
+    "robots_txt_status_code": 200,
+    "robots_txt_accessible": true,
+    "robots_allows_probe_targets": true,
+    "sitemap_xml_url": "https://www.boat24.com/sitemap.xml",
+    "sitemap_xml_status_code": 403,
+    "sitemap_xml_accessible": false,
+    "field_probe_attempted": false,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": false,
+    "field_probe_notes": [],
+    "field_probe_page_results": [],
+    "detail_discovery_attempted": false,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.boat24.com/archive/",
+        "status_code": 403,
+        "outcome": "blocked_403_do_not_bypass",
+        "reason": "source returned HTTP 403"
+      }
+    ],
+    "notes": [
+      "Archive probe checks only a few likely public archive-style URLs.",
+      "If those URLs are absent, that does not imply hidden archive access should be attempted.",
+      "Received HTTP 403 on a probed page. Per project rules, probing should stop here."
+    ]
+  },
+  {
+    "source_id": "burza_nautike",
+    "source_name": "Burza Nautike",
+    "base_url": "https://www.burzanautike.com",
+    "target_confidence": "search_discovered_public_url",
+    "target_source_note": "Using the public Burza Nautike domain with obvious nautical/classified entry paths.",
+    "classification": "candidate_detail_discovery_partial",
+    "robots_txt_url": "https://www.burzanautike.com/robots.txt",
+    "robots_txt_status_code": 200,
+    "robots_txt_accessible": true,
+    "robots_allows_probe_targets": true,
+    "sitemap_xml_url": "https://www.burzanautike.com/sitemap.xml",
+    "sitemap_xml_status_code": 200,
+    "sitemap_xml_accessible": true,
+    "field_probe_attempted": true,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": false,
+    "field_probe_notes": [
+      "No listing detail URLs were confirmed from raw listing-page HTML."
+    ],
+    "field_probe_page_results": [
+      {
+        "page_type": "homepage",
+        "url": "https://www.burzanautike.com/",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": false,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": true,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 163,
+        "raw_html_contains_structured_data": false,
+        "notes": []
+      },
+      {
+        "page_type": "listing",
+        "url": "https://www.burzanautike.com/plovila",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": false,
+        "currency_signal_visible": false,
+        "builder_brand_signal_visible": false,
+        "model_signal_visible": false,
+        "year_signal_visible": true,
+        "location_signal_visible": false,
+        "engine_signal_visible": false,
+        "length_signal_visible": false,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": false,
+        "image_count_estimate": 0,
+        "raw_html_contains_structured_data": false,
+        "notes": [
+          "No obvious listing images were visible in raw HTML."
+        ]
+      }
+    ],
+    "detail_discovery_attempted": true,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [
+      "Tested 1 candidate detail link(s); probable detail pages found: 0."
+    ],
+    "detail_discovery_results": [
+      {
+        "source_name": "Burza Nautike",
+        "source_page_url": "https://www.burzanautike.com/",
+        "candidate_detail_url": "https://www.burzanautike.com/hr/mali_oglasi/",
+        "link_text_sample": "PRETRA\u017dI OGLASE",
+        "url_pattern_reason": "url_match:/mali_oglasi/",
+        "http_status": 200,
+        "final_url": "https://www.burzanautike.com/hr/mali_oglasi/nautika/25,25",
+        "is_probable_detail_page": false,
+        "rejection_reason": "candidate appears to be another category/search/brand page rather than a unique listing"
+      }
+    ],
+    "page_results": [
+      {
+        "url": "https://www.burzanautike.com/",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.burzanautike.com/plovila",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.burzanautike.com/oglasnik",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      }
+    ],
+    "notes": [
+      "Wave 1 source probe uses only a tiny public sample."
+    ]
+  },
+  {
+    "source_id": "croatian_yachting",
+    "source_name": "Croatian Yachting",
+    "base_url": "https://www.croatia-yachting.hr/en",
+    "target_confidence": "official_public_url",
+    "target_source_note": "Targets were corrected from live public navigation on Croatia Yachting's website.",
+    "classification": "candidate_accessible_needs_browser_rendering",
+    "robots_txt_url": "https://www.croatia-yachting.hr/robots.txt",
+    "robots_txt_status_code": 200,
+    "robots_txt_accessible": true,
+    "robots_allows_probe_targets": true,
+    "sitemap_xml_url": "https://www.croatia-yachting.hr/sitemap.xml",
+    "sitemap_xml_status_code": 404,
+    "sitemap_xml_accessible": false,
+    "field_probe_attempted": true,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": true,
+    "field_probe_notes": [
+      "No listing detail URLs were confirmed from raw listing-page HTML."
+    ],
+    "field_probe_page_results": [
+      {
+        "page_type": "homepage",
+        "url": "https://www.croatia-yachting.hr/en/",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": false,
+        "currency_signal_visible": false,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": true,
+        "length_signal_visible": false,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": false,
+        "image_count_estimate": 0,
+        "raw_html_contains_structured_data": false,
+        "notes": []
+      },
+      {
+        "page_type": "listing",
+        "url": "https://www.croatia-yachting.hr/en/yachts-for-sale/used-boats",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": false,
+        "currency_signal_visible": false,
+        "builder_brand_signal_visible": false,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": true,
+        "length_signal_visible": false,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": false,
+        "image_count_estimate": 0,
+        "raw_html_contains_structured_data": true,
+        "notes": [
+          "No obvious listing images were visible in raw HTML."
+        ]
+      }
+    ],
+    "detail_discovery_attempted": false,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.croatia-yachting.hr/en/",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.croatia-yachting.hr/en/yachts-for-sale",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.croatia-yachting.hr/en/yachts-for-sale/used-boats",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      }
+    ],
+    "notes": [
+      "Using the public English-language sales pages exposed in the site's own navigation."
+    ]
+  },
+  {
+    "source_id": "inautia",
+    "source_name": "iNautia",
+    "base_url": "https://www.inautia.com",
+    "target_confidence": "official_public_url",
+    "target_source_note": "Using the public iNautia main domain for a minimal access check.",
+    "classification": "blocked_403_do_not_bypass",
+    "robots_txt_url": "https://www.inautia.com/robots.txt",
+    "robots_txt_status_code": 403,
+    "robots_txt_accessible": false,
+    "robots_allows_probe_targets": null,
+    "sitemap_xml_url": "https://www.inautia.com/sitemap.xml",
+    "sitemap_xml_status_code": 403,
+    "sitemap_xml_accessible": false,
+    "field_probe_attempted": false,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": false,
+    "field_probe_notes": [],
+    "field_probe_page_results": [],
+    "detail_discovery_attempted": false,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.inautia.com/",
+        "status_code": 403,
+        "outcome": "blocked_403_do_not_bypass",
+        "reason": "source returned HTTP 403"
+      }
+    ],
+    "notes": [
+      "Probe is limited to a few public entry points on the assumed main domain.",
+      "Received HTTP 403 on a probed page. Per project rules, probing should stop here."
+    ]
+  },
+  {
+    "source_id": "marine_one",
+    "source_name": "Marine One",
+    "base_url": "https://www.yachtbrokerage.eu",
+    "target_confidence": "official_public_url",
+    "target_source_note": "Marine One branding is present on the public YachtBrokerage website, which exposes a boats-for-sale page.",
+    "classification": "candidate_accessible_fields_visible",
+    "robots_txt_url": "https://www.yachtbrokerage.eu/robots.txt",
+    "robots_txt_status_code": 200,
+    "robots_txt_accessible": true,
+    "robots_allows_probe_targets": true,
+    "sitemap_xml_url": "https://www.yachtbrokerage.eu/sitemap.xml",
+    "sitemap_xml_status_code": 200,
+    "sitemap_xml_accessible": true,
+    "field_probe_attempted": true,
+    "listing_pages_tested": 3,
+    "price_signal_visible": true,
+    "year_signal_visible": true,
+    "location_signal_visible": true,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": true,
+    "raw_html_contains_structured_data": true,
+    "field_probe_notes": [
+      "Discovered and tested 3 public detail page(s) from the listing page."
+    ],
+    "field_probe_page_results": [
+      {
+        "page_type": "homepage",
+        "url": "https://www.yachtbrokerage.eu/",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": false,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": false,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 0,
+        "raw_html_contains_structured_data": true,
+        "notes": []
+      },
+      {
+        "page_type": "listing",
+        "url": "https://www.yachtbrokerage.eu/boats-for-sale",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": false,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": false,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 0,
+        "raw_html_contains_structured_data": true,
+        "notes": [
+          "No obvious listing images were visible in raw HTML."
+        ]
+      },
+      {
+        "page_type": "detail",
+        "url": "https://www.yachtbrokerage.eu/marine-one-brokerage/bali-4.1/code-(979)/2019",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": true,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": false,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": true,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 0,
+        "raw_html_contains_structured_data": true,
+        "notes": []
+      },
+      {
+        "page_type": "detail",
+        "url": "https://www.yachtbrokerage.eu/marine-one-brokerage/bali-4.2/code-(730)/2023",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": true,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": false,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": true,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 0,
+        "raw_html_contains_structured_data": true,
+        "notes": []
+      },
+      {
+        "page_type": "detail",
+        "url": "https://www.yachtbrokerage.eu/marine-one-brokerage/bali-4.2/code-(980)/2023",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": true,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": false,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": true,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 0,
+        "raw_html_contains_structured_data": true,
+        "notes": []
+      }
+    ],
+    "detail_discovery_attempted": false,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.yachtbrokerage.eu/",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.yachtbrokerage.eu/boats-for-sale",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      }
+    ],
+    "notes": [
+      "Replaced the earlier failing guessed domain with the active public YachtBrokerage site carrying Marine One branding."
+    ]
+  },
+  {
+    "source_id": "njuskalo_nautika",
+    "source_name": "Nju\u0161kalo Nautika",
+    "base_url": "https://www.njuskalo.hr",
+    "target_confidence": "official_public_url",
+    "target_source_note": "Using public Nju\u0161kalo category pages for nautical listings.",
+    "classification": "candidate_requires_rendering_for_detail_links",
+    "robots_txt_url": "https://www.njuskalo.hr/robots.txt",
+    "robots_txt_status_code": 200,
+    "robots_txt_accessible": true,
+    "robots_allows_probe_targets": true,
+    "sitemap_xml_url": "https://www.njuskalo.hr/sitemap.xml",
+    "sitemap_xml_status_code": 404,
+    "sitemap_xml_accessible": false,
+    "field_probe_attempted": true,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": true,
+    "field_probe_notes": [
+      "No listing detail URLs were confirmed from raw listing-page HTML."
+    ],
+    "field_probe_page_results": [
+      {
+        "page_type": "homepage",
+        "url": "https://www.njuskalo.hr/",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": false,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": false,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": false,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 67,
+        "raw_html_contains_structured_data": true,
+        "notes": []
+      },
+      {
+        "page_type": "listing",
+        "url": "https://www.njuskalo.hr/nautika",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": false,
+        "currency_signal_visible": false,
+        "builder_brand_signal_visible": false,
+        "model_signal_visible": false,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": false,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 1,
+        "raw_html_contains_structured_data": false,
+        "notes": []
+      }
+    ],
+    "detail_discovery_attempted": true,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [
+      "No candidate detail links were confirmed from raw HTML on the tested public pages."
+    ],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.njuskalo.hr/",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.njuskalo.hr/nautika",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.njuskalo.hr/plovila",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      }
+    ],
+    "notes": [
+      "Wave 1 source probe for a Croatia-focused classifieds source."
+    ]
+  },
+  {
+    "source_id": "theyachtmarket",
+    "source_name": "TheYachtMarket",
+    "base_url": "https://www.theyachtmarket.com/en",
+    "target_confidence": "official_public_url",
+    "target_source_note": "Using TheYachtMarket public English-language domain and obvious sale pages.",
+    "classification": "candidate_detail_discovery_success",
+    "robots_txt_url": "https://www.theyachtmarket.com/robots.txt",
+    "robots_txt_status_code": 200,
+    "robots_txt_accessible": true,
+    "robots_allows_probe_targets": true,
+    "sitemap_xml_url": "https://www.theyachtmarket.com/sitemap.xml",
+    "sitemap_xml_status_code": 200,
+    "sitemap_xml_accessible": true,
+    "field_probe_attempted": true,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": true,
+    "field_probe_notes": [
+      "No listing detail URLs were confirmed from raw listing-page HTML."
+    ],
+    "field_probe_page_results": [
+      {
+        "page_type": "homepage",
+        "url": "https://www.theyachtmarket.com/en/",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": true,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": true,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 31,
+        "raw_html_contains_structured_data": true,
+        "notes": []
+      },
+      {
+        "page_type": "listing",
+        "url": "https://www.theyachtmarket.com/en/boats-for-sale/",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": true,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": true,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 67,
+        "raw_html_contains_structured_data": false,
+        "notes": []
+      }
+    ],
+    "detail_discovery_attempted": true,
+    "probable_detail_pages_found": 3,
+    "detail_discovery_notes": [
+      "Tested 5 candidate detail link(s); probable detail pages found: 3."
+    ],
+    "detail_discovery_results": [
+      {
+        "source_name": "TheYachtMarket",
+        "source_page_url": "https://www.theyachtmarket.com/en/",
+        "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/beneteau/oceanis-clipper-373/id3183354/",
+        "link_text_sample": "Beneteau Oceanis Clipper 373 United Kingdom | 2004 \u00a364,950 GBP View details",
+        "url_pattern_reason": "url_match:/id",
+        "http_status": 200,
+        "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/beneteau/oceanis-clipper-373/id3183354/",
+        "is_probable_detail_page": true,
+        "rejection_reason": null
+      },
+      {
+        "source_name": "TheYachtMarket",
+        "source_page_url": "https://www.theyachtmarket.com/en/",
+        "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/rivale-52/id2306363/",
+        "link_text_sample": "Riva 52 Rivale Turkey | 2011 \u00a3476,940 GBP Listed price \u20ac550,000\u00a0EUR View details",
+        "url_pattern_reason": "url_match:/id",
+        "http_status": 200,
+        "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/rivale-52/id2306363/",
+        "is_probable_detail_page": true,
+        "rejection_reason": null
+      },
+      {
+        "source_name": "TheYachtMarket",
+        "source_page_url": "https://www.theyachtmarket.com/en/",
+        "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/rafnar/1200-cross-cabin/id2682634/",
+        "link_text_sample": "Rafnar Maritime 1200 Cross Cabin Greece | 2023 \u00a3377,216 GBP Listed price \u20ac435,000\u00a0EUR View details",
+        "url_pattern_reason": "url_match:/id",
+        "http_status": 200,
+        "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/rafnar/1200-cross-cabin/id2682634/",
+        "is_probable_detail_page": true,
+        "rejection_reason": null
+      },
+      {
+        "source_name": "TheYachtMarket",
+        "source_page_url": "https://www.theyachtmarket.com/en/",
+        "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/100-corsaro/id2915880/",
+        "link_text_sample": "Riva 100 Corsaro Croatia | 2020 \u00a37,024,031 GBP Listed price \u20ac8,100,000\u00a0EUR View details",
+        "url_pattern_reason": "url_match:/id",
+        "http_status": 200,
+        "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/100-corsaro/id2915880/",
+        "is_probable_detail_page": false,
+        "rejection_reason": "candidate lacked enough detail-page evidence in raw HTML"
+      },
+      {
+        "source_name": "TheYachtMarket",
+        "source_page_url": "https://www.theyachtmarket.com/en/",
+        "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/maiora/20s/id2702082/",
+        "link_text_sample": "Maiora 20s Croatia | 2008 \u00a3615,687 GBP Listed price \u20ac710,000\u00a0EUR View details",
+        "url_pattern_reason": "url_match:/id",
+        "http_status": 200,
+        "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/maiora/20s/id2702082/",
+        "is_probable_detail_page": false,
+        "rejection_reason": "candidate lacked enough detail-page evidence in raw HTML"
+      }
+    ],
+    "page_results": [
+      {
+        "url": "https://www.theyachtmarket.com/en/",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.theyachtmarket.com/en/boats-for-sale/",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.theyachtmarket.com/en/boats-for-sale/croatia/",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      }
+    ],
+    "notes": [
+      "Wave 1 source probe with one safe detail page at most."
+    ]
+  },
+  {
+    "source_id": "topboats",
+    "source_name": "TopBoats",
+    "base_url": "https://www.topboats.com",
+    "target_confidence": "search_discovered_public_url",
+    "target_source_note": "Using the public TopBoats domain with obvious English sale paths.",
+    "classification": "blocked_403_do_not_bypass",
+    "robots_txt_url": "https://www.topboats.com/robots.txt",
+    "robots_txt_status_code": 403,
+    "robots_txt_accessible": false,
+    "robots_allows_probe_targets": null,
+    "sitemap_xml_url": "https://www.topboats.com/sitemap.xml",
+    "sitemap_xml_status_code": 403,
+    "sitemap_xml_accessible": false,
+    "field_probe_attempted": false,
+    "listing_pages_tested": 0,
+    "price_signal_visible": false,
+    "year_signal_visible": false,
+    "location_signal_visible": false,
+    "engine_signal_visible": false,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": false,
+    "field_probe_notes": [],
+    "field_probe_page_results": [],
+    "detail_discovery_attempted": false,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.topboats.com/",
+        "status_code": 403,
+        "outcome": "blocked_403_do_not_bypass",
+        "reason": "source returned HTTP 403"
+      }
+    ],
+    "notes": [
+      "Wave 1 source probe uses likely public English paths and should be refined only if public pages disagree.",
+      "Received HTTP 403 on a probed page. Per project rules, probing should stop here."
+    ]
+  },
+  {
+    "source_id": "yachtall",
+    "source_name": "Yachtall",
+    "base_url": "https://www.yachtall.com/en",
+    "target_confidence": "search_discovered_public_url",
+    "target_source_note": "Using the public Yachtall domain with small-scope public listing entry points.",
+    "classification": "candidate_accessible_fields_weak",
+    "robots_txt_url": "https://www.yachtall.com/robots.txt",
+    "robots_txt_status_code": 200,
+    "robots_txt_accessible": true,
+    "robots_allows_probe_targets": true,
+    "sitemap_xml_url": "https://www.yachtall.com/sitemap.xml",
+    "sitemap_xml_status_code": 200,
+    "sitemap_xml_accessible": true,
+    "field_probe_attempted": true,
+    "listing_pages_tested": 1,
+    "price_signal_visible": true,
+    "year_signal_visible": true,
+    "location_signal_visible": true,
+    "engine_signal_visible": true,
+    "stable_listing_url_visible": false,
+    "raw_html_contains_structured_data": false,
+    "field_probe_notes": [
+      "Discovered and tested 1 public detail page(s) from the listing page."
+    ],
+    "field_probe_page_results": [
+      {
+        "page_type": "homepage",
+        "url": "https://www.yachtall.com/en/",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": true,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": true,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 123,
+        "raw_html_contains_structured_data": false,
+        "notes": []
+      },
+      {
+        "page_type": "listing",
+        "url": "https://www.yachtall.com/en/used-boats",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": true,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": true,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 123,
+        "raw_html_contains_structured_data": false,
+        "notes": []
+      },
+      {
+        "page_type": "detail",
+        "url": "https://www.yachtall.com",
+        "status_code": 200,
+        "title_signal_visible": true,
+        "asking_price_signal_visible": true,
+        "currency_signal_visible": true,
+        "builder_brand_signal_visible": true,
+        "model_signal_visible": true,
+        "year_signal_visible": true,
+        "location_signal_visible": true,
+        "engine_signal_visible": true,
+        "length_signal_visible": true,
+        "stable_listing_url_visible": false,
+        "stable_listing_id_signal_visible": false,
+        "image_presence_visible": true,
+        "image_count_estimate": 158,
+        "raw_html_contains_structured_data": false,
+        "notes": [
+          "Detail page URL did not look like a clearly stable listing URL."
+        ]
+      }
+    ],
+    "detail_discovery_attempted": false,
+    "probable_detail_pages_found": 0,
+    "detail_discovery_notes": [],
+    "detail_discovery_results": [],
+    "page_results": [
+      {
+        "url": "https://www.yachtall.com/en/",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.yachtall.com/en/boats-for-sale",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      },
+      {
+        "url": "https://www.yachtall.com/en/used-boats",
+        "status_code": 200,
+        "outcome": "accessible",
+        "reason": "public page returned success"
+      }
+    ],
+    "notes": [
+      "Wave 1 source probe with a small public-page sample only."
+    ]
+  }
+]

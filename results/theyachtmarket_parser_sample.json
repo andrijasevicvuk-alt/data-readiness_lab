@@ -1,0 +1,88 @@
+{
+  "source_name": "TheYachtMarket",
+  "parser_status": "parser_prototype_success",
+  "detail_pages_parsed": 3,
+  "listings": [
+    {
+      "source_name": "TheYachtMarket",
+      "listing_url": "https://www.theyachtmarket.com/en/boats-for-sale/beneteau/oceanis-clipper-373/id3183354/",
+      "raw_title": "Beneteau Oceanis Clipper 373 Used Boat for for Sale in Oban, Argyll, United Kingdom - 2004",
+      "raw_price_text": "\u00a364,950 GBP",
+      "currency_hint": "GBP",
+      "builder_hint": "Beneteau",
+      "model_hint": "Oceanis Clipper 373",
+      "year_hint": "2004",
+      "location_hint": "Oban, Argyll, United Kingdom",
+      "loa_hint": "11.25 m",
+      "engine_hint": "reliable Volvo Penta MD2040 marine diesel engine",
+      "fuel_hint": "Diesel",
+      "boat_type_hint": "sailing yacht",
+      "broker_hint": null,
+      "image_present": true,
+      "structured_data_present": false,
+      "price_parse_confidence": "high",
+      "year_parse_confidence": "high",
+      "model_parse_confidence": "high",
+      "location_parse_confidence": "high",
+      "loa_parse_confidence": "high",
+      "engine_parse_confidence": "high",
+      "parser_notes": [
+        "Broker field was not clearly visible in the sampled public raw HTML."
+      ]
+    },
+    {
+      "source_name": "TheYachtMarket",
+      "listing_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/rivale-52/id2306363/",
+      "raw_title": "Riva 52 Rivale Used Boat for for Sale in Mugla, Turkey - 2011",
+      "raw_price_text": "\u00a3476,940 GBP Listed price \u20ac550,000 EUR",
+      "currency_hint": "EUR",
+      "builder_hint": "Riva",
+      "model_hint": "52 Rivale",
+      "year_hint": "2011",
+      "location_hint": "Mugla, Turkey",
+      "loa_hint": "15.85 m",
+      "engine_hint": "Man 2x900hp Engine hours 750",
+      "fuel_hint": "Diesel",
+      "boat_type_hint": "motor yacht",
+      "broker_hint": null,
+      "image_present": true,
+      "structured_data_present": false,
+      "price_parse_confidence": "high",
+      "year_parse_confidence": "high",
+      "model_parse_confidence": "high",
+      "location_parse_confidence": "high",
+      "loa_parse_confidence": "high",
+      "engine_parse_confidence": "high",
+      "parser_notes": [
+        "Broker field was not clearly visible in the sampled public raw HTML."
+      ]
+    },
+    {
+      "source_name": "TheYachtMarket",
+      "listing_url": "https://www.theyachtmarket.com/en/boats-for-sale/rafnar/1200-cross-cabin/id2682634/",
+      "raw_title": "Rafnar Maritime 1200 Cross Cabin for Sale in Greece - 2023",
+      "raw_price_text": "\u00a3377,216 GBP Listed price \u20ac435,000 EUR",
+      "currency_hint": "EUR",
+      "builder_hint": "Rafnar Maritime",
+      "model_hint": "1200 Cross Cabin",
+      "year_hint": "2023",
+      "location_hint": "Greece",
+      "loa_hint": "12.00 m",
+      "engine_hint": "2 x 600 MERCURY V12",
+      "fuel_hint": "Petrol/Gasoline",
+      "boat_type_hint": "Cross Cabin",
+      "broker_hint": null,
+      "image_present": true,
+      "structured_data_present": false,
+      "price_parse_confidence": "high",
+      "year_parse_confidence": "high",
+      "model_parse_confidence": "high",
+      "location_parse_confidence": "high",
+      "loa_parse_confidence": "high",
+      "engine_parse_confidence": "high",
+      "parser_notes": [
+        "Broker field was not clearly visible in the sampled public raw HTML."
+      ]
+    }
+  ]
+}

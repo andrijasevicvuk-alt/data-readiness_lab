@@ -1,0 +1,80 @@
+[
+  {
+    "source_id": "burza_nautike",
+    "source_name": "Burza Nautike",
+    "classification": "candidate_detail_discovery_partial",
+    "source_page_url": "https://www.burzanautike.com/",
+    "candidate_detail_url": "https://www.burzanautike.com/hr/mali_oglasi/",
+    "link_text_sample": "PRETRA\u017dI OGLASE",
+    "url_pattern_reason": "url_match:/mali_oglasi/",
+    "http_status": 200,
+    "final_url": "https://www.burzanautike.com/hr/mali_oglasi/nautika/25,25",
+    "is_probable_detail_page": false,
+    "rejection_reason": "candidate appears to be another category/search/brand page rather than a unique listing"
+  },
+  {
+    "source_id": "theyachtmarket",
+    "source_name": "TheYachtMarket",
+    "classification": "candidate_detail_discovery_success",
+    "source_page_url": "https://www.theyachtmarket.com/en/",
+    "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/beneteau/oceanis-clipper-373/id3183354/",
+    "link_text_sample": "Beneteau Oceanis Clipper 373 United Kingdom | 2004 \u00a364,950 GBP View details",
+    "url_pattern_reason": "url_match:/id",
+    "http_status": 200,
+    "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/beneteau/oceanis-clipper-373/id3183354/",
+    "is_probable_detail_page": true,
+    "rejection_reason": ""
+  },
+  {
+    "source_id": "theyachtmarket",
+    "source_name": "TheYachtMarket",
+    "classification": "candidate_detail_discovery_success",
+    "source_page_url": "https://www.theyachtmarket.com/en/",
+    "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/rivale-52/id2306363/",
+    "link_text_sample": "Riva 52 Rivale Turkey | 2011 \u00a3476,940 GBP Listed price \u20ac550,000\u00a0EUR View details",
+    "url_pattern_reason": "url_match:/id",
+    "http_status": 200,
+    "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/rivale-52/id2306363/",
+    "is_probable_detail_page": true,
+    "rejection_reason": ""
+  },
+  {
+    "source_id": "theyachtmarket",
+    "source_name": "TheYachtMarket",
+    "classification": "candidate_detail_discovery_success",
+    "source_page_url": "https://www.theyachtmarket.com/en/",
+    "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/rafnar/1200-cross-cabin/id2682634/",
+    "link_text_sample": "Rafnar Maritime 1200 Cross Cabin Greece | 2023 \u00a3377,216 GBP Listed price \u20ac435,000\u00a0EUR View details",
+    "url_pattern_reason": "url_match:/id",
+    "http_status": 200,
+    "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/rafnar/1200-cross-cabin/id2682634/",
+    "is_probable_detail_page": true,
+    "rejection_reason": ""
+  },
+  {
+    "source_id": "theyachtmarket",
+    "source_name": "TheYachtMarket",
+    "classification": "candidate_detail_discovery_success",
+    "source_page_url": "https://www.theyachtmarket.com/en/",
+    "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/100-corsaro/id2915880/",
+    "link_text_sample": "Riva 100 Corsaro Croatia | 2020 \u00a37,024,031 GBP Listed price \u20ac8,100,000\u00a0EUR View details",
+    "url_pattern_reason": "url_match:/id",
+    "http_status": 200,
+    "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/riva/100-corsaro/id2915880/",
+    "is_probable_detail_page": false,
+    "rejection_reason": "candidate lacked enough detail-page evidence in raw HTML"
+  },
+  {
+    "source_id": "theyachtmarket",
+    "source_name": "TheYachtMarket",
+    "classification": "candidate_detail_discovery_success",
+    "source_page_url": "https://www.theyachtmarket.com/en/",
+    "candidate_detail_url": "https://www.theyachtmarket.com/en/boats-for-sale/maiora/20s/id2702082/",
+    "link_text_sample": "Maiora 20s Croatia | 2008 \u00a3615,687 GBP Listed price \u20ac710,000\u00a0EUR View details",
+    "url_pattern_reason": "url_match:/id",
+    "http_status": 200,
+    "final_url": "https://www.theyachtmarket.com/en/boats-for-sale/maiora/20s/id2702082/",
+    "is_probable_detail_page": false,
+    "rejection_reason": "candidate lacked enough detail-page evidence in raw HTML"
+  }
+]

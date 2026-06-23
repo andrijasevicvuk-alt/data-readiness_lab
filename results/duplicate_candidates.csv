@@ -1,0 +1,2 @@
+record_a_url,record_b_url,duplicate_score,duplicate_confidence,duplicate_reason,suggested_cluster_id,review_required
+https://www.yachtbrokerage.eu/marine-one-brokerage/bali-4.2/code-(730)/2023,https://www.yachtbrokerage.eu/marine-one-brokerage/bali-4.2/code-(980)/2023,0.870,high,title similarity 1.00; builder/model similarity 1.00; same year; close LOA (0.60m); very close price (3.7%); both listings have images,cluster-bali-bali-4-2-2023,True
