@@ -1,0 +1,3 @@
+source_name,raw_record_count,valuation_ready_candidate_count,excluded_record_count,review_required_count,avg_data_quality_score,builder_model_coverage_pct,year_coverage_pct,country_location_coverage_pct,price_coverage_pct,loa_coverage_pct,engine_coverage_pct,duplicate_risk_record_count,ready_share_pct,source_readiness_note
+TheYachtMarket,3,3,0,1,100.0,100.0,100.0,100.0,100.0,100.0,100.0,0,100.0,Best current backbone candidate; normalized fields are strong enough to prove valuation usefulness.
+Marine One / YachtBrokerage,4,0,4,4,85.0,100.0,100.0,0.0,100.0,100.0,0.0,2,0.0,"Good trust-anchor source, but location coverage and duplicate review still block valuation-ready promotion."

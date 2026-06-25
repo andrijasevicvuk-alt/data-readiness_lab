@@ -1,0 +1,132 @@
+{
+  "summary": {
+    "raw_pilot_record_count": 7,
+    "normalized_record_count": 7,
+    "valuation_ready_candidate_count": 3,
+    "excluded_record_count": 4,
+    "review_required_count": 5,
+    "avg_data_quality_score": 91.4
+  },
+  "coverage": {
+    "builder_model_coverage": {
+      "present_count": 7,
+      "total_count": 7,
+      "coverage_pct": 100.0
+    },
+    "year_coverage": {
+      "present_count": 7,
+      "total_count": 7,
+      "coverage_pct": 100.0
+    },
+    "source_coverage": [
+      {
+        "source_name": "Marine One / YachtBrokerage",
+        "record_count": 4,
+        "share_pct": 57.1
+      },
+      {
+        "source_name": "TheYachtMarket",
+        "record_count": 3,
+        "share_pct": 42.9
+      }
+    ],
+    "country_location_coverage": {
+      "present_count": 3,
+      "total_count": 7,
+      "coverage_pct": 42.9
+    },
+    "price_coverage": {
+      "present_count": 7,
+      "total_count": 7,
+      "coverage_pct": 100.0
+    },
+    "loa_coverage": {
+      "present_count": 7,
+      "total_count": 7,
+      "coverage_pct": 100.0
+    },
+    "engine_coverage": {
+      "present_count": 3,
+      "total_count": 7,
+      "coverage_pct": 42.9
+    }
+  },
+  "duplicate_risk_summary": {
+    "risky_record_count": 2,
+    "high_confidence_record_count": 2,
+    "medium_confidence_record_count": 0,
+    "low_confidence_record_count": 0,
+    "cluster_count": 1,
+    "clusters": [
+      {
+        "cluster_id": "cluster-bali-bali-4-2-2023",
+        "member_count": 2,
+        "member_urls": [
+          "https://www.yachtbrokerage.eu/marine-one-brokerage/bali-4.2/code-(730)/2023",
+          "https://www.yachtbrokerage.eu/marine-one-brokerage/bali-4.2/code-(980)/2023"
+        ],
+        "highest_confidence": "high"
+      }
+    ]
+  },
+  "exclusion_reason_summary": [
+    {
+      "reason": "country/location missing",
+      "count": 4
+    },
+    {
+      "reason": "duplicate review required (high)",
+      "count": 2
+    }
+  ],
+  "review_reason_summary": [
+    {
+      "reason": "engine signature missing or weak",
+      "count": 4
+    },
+    {
+      "reason": "source parser remains partial in the source lab",
+      "count": 4
+    },
+    {
+      "reason": "price remains in GBP (EUR conversion deferred to main YPI)",
+      "count": 1
+    }
+  ],
+  "source_breakdown": [
+    {
+      "source_name": "TheYachtMarket",
+      "raw_record_count": 3,
+      "valuation_ready_candidate_count": 3,
+      "excluded_record_count": 0,
+      "review_required_count": 1,
+      "avg_data_quality_score": 100.0,
+      "builder_model_coverage_pct": 100.0,
+      "year_coverage_pct": 100.0,
+      "country_location_coverage_pct": 100.0,
+      "price_coverage_pct": 100.0,
+      "loa_coverage_pct": 100.0,
+      "engine_coverage_pct": 100.0,
+      "duplicate_risk_record_count": 0,
+      "ready_share_pct": 100.0,
+      "source_readiness_note": "Best current backbone candidate; normalized fields are strong enough to prove valuation usefulness."
+    },
+    {
+      "source_name": "Marine One / YachtBrokerage",
+      "raw_record_count": 4,
+      "valuation_ready_candidate_count": 0,
+      "excluded_record_count": 4,
+      "review_required_count": 4,
+      "avg_data_quality_score": 85.0,
+      "builder_model_coverage_pct": 100.0,
+      "year_coverage_pct": 100.0,
+      "country_location_coverage_pct": 0.0,
+      "price_coverage_pct": 100.0,
+      "loa_coverage_pct": 100.0,
+      "engine_coverage_pct": 0.0,
+      "duplicate_risk_record_count": 2,
+      "ready_share_pct": 0.0,
+      "source_readiness_note": "Good trust-anchor source, but location coverage and duplicate review still block valuation-ready promotion."
+    }
+  ]
+}

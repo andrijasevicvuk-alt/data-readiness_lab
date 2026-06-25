@@ -112,6 +112,29 @@ Outputs:
 
 This pilot exists to prove whether a small, controlled public-market sample can support YPI valuation usefulness first, and insurance-department support later.
 
+Run the normalized preview:
+
+```powershell
+python run_normalized_preview.py
+```
+
+Additional outputs:
+
+- `results/normalized_dataset_preview.json`
+- `results/normalized_dataset_preview.csv`
+
+Run the valuation-readiness report:
+
+```powershell
+python run_valuation_readiness_report.py
+```
+
+Additional outputs:
+
+- `results/valuation_readiness_report.json`
+- `results/valuation_readiness_report.csv`
+- `docs/valuation_readiness_report.md`
+
 ## Current Best Pair
 
 - `TheYachtMarket` is the current best broader marketplace backbone candidate.
@@ -124,6 +147,13 @@ This pilot exists to prove whether a small, controlled public-market sample can 
 - It does not contain anti-bot bypass logic, proxy rotation, copied cookies, CAPTCHA handling, or large-scale scraping workflows.
 - Sources that block automated access remain delayed or permission/feed/API candidates instead of bypass targets.
 - When a source adapter or dataset workflow proves useful enough for the core product, the implementation should be promoted into the main YPI repo rather than expanded here indefinitely.
+
+## From Source Lab To Main YPI Repo
+
+- This repo proves source access, parser feasibility, dataset quality, and duplicate-review logic before promotion.
+- `TheYachtMarket` and `Marine One / YachtBrokerage` are the current best pair for controlled transfer into later main-repo ingestion work.
+- `results/market_dataset_pilot_raw.*` and `results/normalized_dataset_preview.*` are the clearest bridge outputs for future raw-ingestion and normalization layers.
+- Successful source-specific parser modules should later move into the main YPI repo as real adapters, while blocked or rendering-dependent sources should remain research-only here.
 
 ## Notes
 
