@@ -11,3 +11,5 @@
 - No clear asking-price, currency, length, or image-card signals were confirmed from the tested raw HTML.
 - One bounded rendered-text check on the public used-boats page still did not confirm a listing-level location phrase such as `docked in Croatia`.
 - Conclusion for now: publicly reachable, but not ready for a tiny raw-HTML parser prototype without browser-rendered discovery or another clearer public listing feed.
+- Final delayed-source decision after the Wave 2 pass: `rendered_adapter_candidate`.
+- Near-term recommendation: only revisit if a small, explicitly approved rendered adapter path is acceptable for the main YPI project later.

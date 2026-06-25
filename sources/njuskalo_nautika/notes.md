@@ -6,3 +6,5 @@
 - Homepage and category pages returned `200`, but the raw HTML did not expose a safe small set of nautical detail URLs for this agent.
 - A direct raw-text check showed ShieldSquare challenge content on the public nautical category page, so this source should not move to parser work in the lab's current non-bypass mode.
 - Recommendation: delay this source unless a later manual/browser-visible review shows stable public detail links without bypass behavior.
+- Final delayed-source decision after the Wave 2 pass: `blocked_do_not_bypass`.
+- Near-term recommendation: keep it blocked in this lab and revisit only through permission/feed/API or a non-automated manual research track.

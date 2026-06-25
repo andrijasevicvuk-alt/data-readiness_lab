@@ -2,6 +2,17 @@
 
 This report consolidates the current access, discovery, rendering, and parser evidence across all tested sources.
 
+## Wave 2 Follow-Up
+
+- A later bounded Wave 2 pass did not produce a stronger new backbone source than `TheYachtMarket`.
+- `boats.com`, `Boatshop24`, `Botentekoop`, `Boatshed`, and `YachtWorld` returned raw-probe challenge or `403` behavior and should remain blocked in this lab.
+- `Apollo Duck` was reachable, but its tested country paths behaved like generic fallback pages rather than clearly distinct country-result buckets, so it remains `not_ready`.
+- Delayed-source finalization from the Wave 2 pass:
+  `Croatian Yachting` -> `rendered_adapter_candidate`
+  `Burza Nautike` -> `delayed_detail_discovery`
+  `Yachtall` -> `not_worth_pursuing_now`
+  `Njuškalo Nautika` -> `blocked_do_not_bypass`
+
 ## Current Best Pair
 
 - TheYachtMarket is the first broader marketplace backbone candidate.

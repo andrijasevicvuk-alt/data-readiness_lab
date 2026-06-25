@@ -29,8 +29,14 @@ The goal is not to scrape large amounts of data. The goal is to make a few slow,
 - TheYachtMarket
 - TopBoats
 - Band of Boats
-- Njuškalo Nautika
+- Njuskalo Nautika
 - Burza Nautike
+- boats.com
+- Boatshop24
+- Botentekoop
+- Apollo Duck
+- Boatshed
+- YachtWorld
 
 ## Project Layout
 
@@ -135,6 +141,20 @@ Additional outputs:
 - `results/valuation_readiness_report.csv`
 - `docs/valuation_readiness_report.md`
 
+Run the bounded Wave 2 and delayed-source pass:
+
+```powershell
+python run_wave2_probes.py
+```
+
+Additional outputs:
+
+- `results/wave2_source_tests.json`
+- `results/wave2_source_tests.csv`
+- `results/wave2_field_probe_results.json`
+- `results/wave2_field_probe_results.csv`
+- `docs/wave2_and_delayed_source_report.md`
+
 ## Current Best Pair
 
 - `TheYachtMarket` is the current best broader marketplace backbone candidate.
@@ -154,6 +174,17 @@ Additional outputs:
 - `TheYachtMarket` and `Marine One / YachtBrokerage` are the current best pair for controlled transfer into later main-repo ingestion work.
 - `results/market_dataset_pilot_raw.*` and `results/normalized_dataset_preview.*` are the clearest bridge outputs for future raw-ingestion and normalization layers.
 - Successful source-specific parser modules should later move into the main YPI repo as real adapters, while blocked or rendering-dependent sources should remain research-only here.
+
+## Wave 2 Readout
+
+- The latest bounded Wave 2 pass did not find a stronger new backbone source than `TheYachtMarket`.
+- `boats.com`, `Boatshop24`, `Botentekoop`, `Boatshed`, and `YachtWorld` all returned public challenge or `403` behavior to the raw probe client and remain blocked in this lab.
+- `Apollo Duck` was reachable, but its tested country paths behaved like generic fallback pages rather than clearly country-filtered result buckets, so it remains `not_ready`.
+- Delayed-source near-term decisions are now:
+  `Croatian Yachting` -> `rendered_adapter_candidate`
+  `Burza Nautike` -> `delayed_detail_discovery`
+  `Yachtall` -> `not_worth_pursuing_now`
+  `Njuskalo Nautika` -> `blocked_do_not_bypass`
 
 ## Notes
 
