@@ -20,6 +20,38 @@ This report consolidates the current access, discovery, rendering, and parser ev
 - Boat24 is not required for MVP if TheYachtMarket remains stable.
 - Boat24 may still be useful later through permission/feed/API access or future research.
 
+## How To Make Future Scraped Data More Valuable
+
+The next step in dataset value is not just adding more sources or more rows.
+It is improving how each source contributes richer normalized evidence.
+
+Likely future source roles:
+
+- Boat24: broad marketplace backbone if later accessible through compliant means, likely with stronger structured listing fields
+- TheYachtMarket: broad marketplace backbone and currently the strongest practical parser source in this lab
+- iNautia: Mediterranean and EU expansion source if later accessible through compliant means
+- Marine One: Croatian and Adriatic broker trust anchor with useful descriptive text for maintenance, condition, and listing context
+- Croatian Yachting: Croatian and Adriatic broker source with possible charter and ex-charter signal value
+- Burza Nautike or Njuškalo Nautika: local classified and private-market signal sources if accessible and compliant
+
+The most valuable dataset is not only a bigger dataset.
+It is a richer normalized dataset with:
+
+- reliable builder, model, and year
+- price and currency
+- location, country, and subregion
+- LOA and other technical dimensions
+- engine and drive type
+- ownership, private-use, charter, and ex-charter hints
+- maintenance and condition signals
+- duplicate clusters
+- source reliability
+- extraction confidence
+- valuation-ready eligibility
+
+This is why localized marine text extraction matters.
+Marketplace fields provide breadth, but broker and classified text can add condition, maintenance, ownership, and location nuance that improves both valuation usefulness and insurance-department review value.
+
 ## Source Ranking
 
 1. TheYachtMarket: `parser_prototype_success`; role `broader_marketplace_backbone`; next `Promote to adapter candidate #1 and use as the first broader marketplace backbone.`

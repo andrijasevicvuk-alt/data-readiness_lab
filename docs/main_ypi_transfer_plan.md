@@ -77,3 +77,28 @@ Raw source-lab outputs already point toward three future main-repo entity layers
 - Rendering-dependent source checks remain research-only.
 - Blocked `403` sources remain delayed or permission/feed/API candidates, not adapter candidates.
 - Tiny parser prototypes should stay in the source lab until they are stable enough to become versioned main-repo adapters.
+
+## Localized Marine Text Extraction Transfer Path
+
+This repo may later evaluate a review-assisted workflow for messy localized marine text, especially for Croatian and Adriatic terminology that is valuable for valuation and insurance-oriented interpretation.
+
+What stays in the side repo:
+
+- messy text staging
+- candidate regex discovery
+- manual ChatGPT-assisted review
+- rejected rules
+- experimental rules
+
+What can later move to the main YPI repo:
+
+- accepted rule catalog
+- tested regex patterns
+- fixtures
+- deterministic extraction module
+- confidence outputs
+- review queue signals
+
+The transfer boundary should remain strict.
+The side repo is the place to discover and challenge candidate rules.
+The main repo should receive only deterministic, tested, rerunnable logic with fixtures and explicit review behavior.

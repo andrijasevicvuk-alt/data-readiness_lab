@@ -175,6 +175,12 @@ Additional outputs:
 - `results/market_dataset_pilot_raw.*` and `results/normalized_dataset_preview.*` are the clearest bridge outputs for future raw-ingestion and normalization layers.
 - Successful source-specific parser modules should later move into the main YPI repo as real adapters, while blocked or rendering-dependent sources should remain research-only here.
 
+## Localized Marine Text Extraction Idea
+
+This repo may later stage unparsed localized marine text and reviewed regex or rule candidates.
+This is only a review-assisted rule discovery process.
+Accepted deterministic rules may later transfer to the main YPI pipeline after fixture tests.
+
 ## Wave 2 Readout
 
 - The latest bounded Wave 2 pass did not find a stronger new backbone source than `TheYachtMarket`.
